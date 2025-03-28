@@ -5,29 +5,42 @@ build/
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Log/OS Files
+# User-specific files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
+# Android Studio specific files
+*.iws
+*.ipr
+.idea/
+
+# NDK
+obj/
+
+# Generated files
 *.apk
-output.json
+*.ap_
+*.dex
+*.class
+*.jar
 
 # IntelliJ
+*.iws
 *.iml
+*.ipr
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Android Studio specific files
+.cxx/
+.externalNativeBuild/
